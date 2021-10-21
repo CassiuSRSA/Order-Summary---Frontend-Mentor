@@ -46,7 +46,9 @@ body {
   align-items: center;
 }
 
-.heading, .para, .plan-select  {
+.heading, 
+.para, 
+.plan-select  {
   margin-bottom: 30px;
 }
 
@@ -82,7 +84,9 @@ body {
   color: #ac51fc;
 }
 
-.change-link a:hover, change-link a:active {
+.change-link a:hover, 
+.change-link a:active,
+.change-link a:focus {
   text-decoration: none;
   color: #9849de;
   cursor: pointer;
@@ -99,7 +103,9 @@ body {
   box-shadow: 1px 17px 37px -11px rgba(0,0,0,0.75);
 }
 
-.payment:hover, .payment:active {
+.payment:hover, 
+.payment:active, 
+.payment:focus {
   background: #515cfc;
   cursor: pointer;
 }
@@ -113,7 +119,9 @@ body {
   font-weight: 500;
 }
 
-.cancel:hover, .cancel:active {
+.cancel:hover, 
+.cancel:active, 
+.cancel:focus {
   cursor: pointer;
   color: #5e5e5e
 }
